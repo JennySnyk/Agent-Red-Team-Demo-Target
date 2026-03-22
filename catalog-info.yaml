@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Agent-Red-Team-Demo-Target
+spec:
+  type: intentionally-vulnerable
+  lifecycle: production
+  owner: emerging-tech-strategy_llm
