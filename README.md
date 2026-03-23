@@ -97,3 +97,7 @@ authenticates as **Jane** (guest). **Joe** (owner) has the sensitive data.
 - **JWT tokens** — ephemeral; auto-generated per container start, destroyed on teardown
 - **Mock secrets** — code execution returns canned fake credentials, never runs real code
 - **No persistence** — SQLite in-memory, sessions in-process; nothing survives a restart
+
+## License
+
+[Apache License 2.0](LICENSE)
